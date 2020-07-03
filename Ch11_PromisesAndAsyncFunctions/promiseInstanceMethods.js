@@ -85,14 +85,14 @@
 
 
 // 2.2 OnRejected handler
-let p1 = Promise.reject('foo')
+// let p1 = Promise.reject('foo')
 
-let p2 = p1.then().catch(e=>{console.log(e)})
+// let p2 = p1.then().catch(e=>{console.log(e)})
 
-let p3 = p1.then(null,(e)=>{return e}).catch(e=>{console.log(e)})
-let p4 = p1.then(null, ()=>undefined)
-let p5 = p1.then(null,()=>Promise.resolve())
+// let p3 = p1.then(null,(e)=>{return e}).catch(e=>{console.log(e)})
+// let p4 = p1.then(null, ()=>undefined)
+// let p5 = p1.then(null,()=>Promise.resolve())
 
-setTimeout(console.log,0,p3)
-setTimeout(console.log,0,p4)
-setTimeout(console.log,0,p5)
+// setTimeout(console.log,0,p3)
+// setTimeout(console.log,0,p4)
+// setTimeout(console.log,0,p5)

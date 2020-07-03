@@ -8,9 +8,12 @@
 
 **日程与内容**
 
-- [ ] Day 1
-  - [ ] 5.引用类型
-      - [x] RegExp
-  - ~~[ ] 15.使用Canvas~~
-- [ ] Day2 & Day3
-  - [x] 9.Proxy&Refect
+- [ ] 5.引用类型
+    - [x] RegExp
+
+- [ ] 9.Proxy&Refect
+
+- [ ] Promise & Async functions
+- [ ] Objects,Classes and OOP
+- [ ] Network
+- [ ] Module
